@@ -6,8 +6,6 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/build" />
 <!-- KAOSP Projects -->
-  <project path="hardware/qcom/wlan" name="KAOSP/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.1" />
-  <project path="hardware/ril" name="KAOSP/platform_hardware_qcom_ril" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.1" />
   <project path="build/make" name="KAOSP/platform_build" remote="github" revision="aosp-8.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

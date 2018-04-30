@@ -56,7 +56,9 @@
   <project path="hardware/qcom/media-caf/msm8996" name="KAOSP/platform_hardware_qcom_media-caf" groups="qcom,pdk" remote="github" revision="aosp-8.1-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8998" />
   <project path="hardware/qcom/power" name="KAOSP/platform_hardware_qcom_power" groups="qcom,pdk" remote="github" revision="aosp-8.1" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/wlan-caf" name="KAOSP/platform_hardware_qcom_wlan_caf" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.1" />
+  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="lineage-15.1"/>
   <project path="hardware/ril-caf" name="KAOSP/platform_hardware_ril-caf" groups="pdk" remote="github" revision="aosp-8.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1" />
