@@ -18,7 +18,9 @@
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/msm8x09" />
   <remove-project name="platform/hardware/qcom/power" />
-  
+  <remove-project name="platform/frameworks/native" />
+
+  <project path="frameworks/native" name="GZOSP/frameworks_native" groups="pdk" remote="github" revision="8.1" />  
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="github" revision="lineage-15.1" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>
