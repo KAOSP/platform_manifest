@@ -19,7 +19,9 @@
   <remove-project name="platform/hardware/qcom/msm8x09" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/external/tinycompress" />
 
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="frameworks/native" name="KAOSP/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-8.1" />  
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="github" revision="lineage-15.1" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
