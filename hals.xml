@@ -9,7 +9,7 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/ril" />
+  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
@@ -29,50 +29,50 @@
   <!-- CodeAurora additions -->
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" groups="qcom,pdk" remote="github" revision="lineage-15.1" />
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk" remote="github" revision="lineage-15.1" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="KAOSP/platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="aosp-8.1-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="KAOSP/platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="aosp-8.1-8916" />
   <project path="hardware/qcom/audio-caf/msm8937" name="KAOSP/platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="aosp-8.1-8937" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="KAOSP/platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="aosp-8.1-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="KAOSP/platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="aosp-8.1-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="KAOSP/platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="aosp-8.1-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="KAOSP/platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="aosp-8.1-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="KAOSP/platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="aosp-8.1-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="KAOSP/platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="github" revision="aosp-8.1-8998" />
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf" />
-  <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/apq8084" name="KAOSP/platform_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.1-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="KAOSP/platform_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.1-8916" />
+  <project path="hardware/qcom/display-caf/msm8952" name="KAOSP/platform_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.1-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="KAOSP/platform_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.1-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="KAOSP/platform_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.1-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="KAOSP/platform_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.1-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="KAOSP/platform_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.1-8996" >
     <linkfile src="pickup.bp" dest="hardware/qcom/Android.bp" />
     <linkfile src="pickup.bp" dest="hardware/qcom/display-caf/Android.bp" />
   </project>
-  <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8998" name="KAOSP/platform_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.1-8998" />
   <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="lineage-15.1" />
-  <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/apq8084" name="KAOSP/platform_hardware_qcom_media-caf" groups="qcom,pdk" remote="github" revision="aosp-8.1-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="KAOSP/platform_hardware_qcom_media-caf" groups="qcom,pdk" remote="github" revision="aosp-8.1-8916" />
+  <project path="hardware/qcom/media-caf/msm8952" name="KAOSP/platform_hardware_qcom_media-caf" groups="qcom,pdk" remote="github" revision="aosp-8.1-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="KAOSP/platform_hardware_qcom_media-caf" groups="qcom,pdk" remote="github" revision="aosp-8.1-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="KAOSP/platform_hardware_qcom_media-caf" groups="qcom,pdk" remote="github" revision="aosp-8.1-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="KAOSP/platform_hardware_qcom_media-caf" groups="qcom,pdk" remote="github" revision="aosp-8.1-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="KAOSP/platform_hardware_qcom_media-caf" groups="qcom,pdk" remote="github" revision="aosp-8.1-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8998" name="KAOSP/platform_hardware_qcom_media-caf" groups="qcom,pdk" remote="github" revision="aosp-8.1-8998" />
   <project path="hardware/qcom/power" name="KAOSP/platform_hardware_qcom_power" groups="qcom,pdk" remote="github" revision="aosp-8.1" />
-  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/wlan" name="KAOSP/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.1" />
   <project path="hardware/qcom/wlan-caf" name="KAOSP/platform_hardware_qcom_wlan-caf" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.1" />
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="lineage-15.1"/>
+  <project path="hardware/ril" name="KAOSP/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-8.1"/>
   <project path="hardware/ril-caf" name="KAOSP/platform_hardware_ril-caf" groups="pdk" remote="github" revision="aosp-8.1" />
   <project path="system/qcom" name="GZOSP/system_qcom" groups="qcom" remote="github" revision="8.1" />
-  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/audio/default" name="KAOSP/platform_hardware_qcom_audio_default" groups="qcom,qcom_audio,pdk" remote="github" revision="aosp-8.1" />
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom_camera" remote="github" revision="lineage-15.1" />
-  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/display" name="KAOSP/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.1" />
   <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="github" revision="lineage-15.1" />
-  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/media" name="KAOSP/platform_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="aosp-8.1" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-15.1" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-15.1" />
   <project path="vendor/qcom/opensource/dataservices" name="KAOSP/platform_vendor_qcom_opensource_dataservices" remote="github" revision="aosp-8.1" />
