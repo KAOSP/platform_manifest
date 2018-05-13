@@ -22,6 +22,7 @@
   <project path="frameworks/base" name="KAOSP/platform_frameworks_base" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/Settings" name="KAOSP/platform_packages_apps_Settings" remote="github" revision="aosp-8.1" />
   <project path="frameworks/native" name="KAOSP/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-8.1" />
+  <project path="packages/themes" name="KAOSP/platform_packages_themes" remote="github" revision="aosp-8.1" />
 
 <!-- Moto G5 Cedric Projects -->
   <project name="KAOSP/platform_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="aosp-8.1" />
