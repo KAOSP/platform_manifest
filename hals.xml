@@ -19,8 +19,10 @@
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/msm8x09" />
   <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/external/tinycompress" />
 
+  <project path="hardware/libhardware" name="KAOSP/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-8.1" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="github" revision="lineage-15.1" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
