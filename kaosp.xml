@@ -23,6 +23,11 @@
   <project path="packages/apps/Settings" name="KAOSP/platform_packages_apps_Settings" remote="github" revision="aosp-8.1" />
   <project path="frameworks/native" name="KAOSP/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-8.1" />
   <project path="packages/themes" name="KAOSP/platform_packages_themes" remote="github" revision="aosp-8.1" />
+  <project path="packages/apps/SnapdragonCamera" name="KAOSP/platform_packages_apps_SnapdragonCamera" remote="github" revision="aosp-8.1" />
+  <project path="packages/apps/SnapdragonGallery" name="KAOSP/platform_packages_apps_SnapdragonGallery" remote="github" revision="aosp-8.1" />
+  <project path="packages/apps/SnapdragonMusic" name="KAOSP/platform_packages_apps_SnapdragonMusic" remote="github" revision="aosp-8.1" />
+  <project path="packages/apps/MusicFX" name="KAOSP/platform_packages_apps_MusicFX" remote="github" revision="aosp-8.1" />
+  <project path="packages/apps/Jelly" name="KAOSP/platform_packages_apps_Jelly" remote="github" revision="aosp-8.1" />
 
 <!-- Moto G5 Cedric Projects -->
   <project name="KAOSP/platform_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="aosp-8.1" />
