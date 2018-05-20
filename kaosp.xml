@@ -3,9 +3,12 @@
 <!-- Remove -->
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/frameworks/native" />
 
 <!-- KAOSP Projects -->
@@ -19,6 +22,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="system/core" name="KAOSP/platform_system_core" remote="github" revision="aosp-8.1" />
+  <project path="system/bt" name="KAOSP/platform_system_bt" remote="github" revision="aosp-8.1" />
   <project path="frameworks/base" name="KAOSP/platform_frameworks_base" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/Settings" name="KAOSP/platform_packages_apps_Settings" remote="github" revision="aosp-8.1" />
   <project path="frameworks/native" name="KAOSP/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-8.1" />
@@ -28,6 +32,8 @@
   <project path="packages/apps/SnapdragonMusic" name="KAOSP/platform_packages_apps_SnapdragonMusic" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/MusicFX" name="KAOSP/platform_packages_apps_MusicFX" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/Jelly" name="KAOSP/platform_packages_apps_Jelly" remote="github" revision="aosp-8.1" />
+  <project path="packages/apps/DeskClock" name="KAOSP/platform_packages_apps_DeskClock" remote="github" revision="aosp-8.1" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" remote="github" revision="lineage-15.1" />
 
 <!-- Moto G5 Cedric Projects -->
   <project name="KAOSP/platform_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="aosp-8.1" />
