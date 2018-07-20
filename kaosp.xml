@@ -9,7 +9,6 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/MusicFX" />
-  <remove-project name="platform/frameworks/native" />
 
 <!-- KAOSP Projects -->
   <project path="build/make" name="KAOSP/platform_build" remote="github" revision="aosp-8.1" >
@@ -25,7 +24,6 @@
   <project path="system/bt" name="KAOSP/platform_system_bt" remote="github" revision="aosp-8.1" />
   <project path="frameworks/base" name="KAOSP/platform_frameworks_base" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/Settings" name="KAOSP/platform_packages_apps_Settings" remote="github" revision="aosp-8.1" />
-  <project path="frameworks/native" name="KAOSP/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-8.1" />
   <project path="packages/themes" name="KAOSP/platform_packages_themes" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/SnapdragonCamera" name="KAOSP/platform_packages_apps_SnapdragonCamera" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/SnapdragonGallery" name="KAOSP/platform_packages_apps_SnapdragonGallery" remote="github" revision="aosp-8.1" />
