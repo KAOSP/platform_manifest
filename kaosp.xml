@@ -34,9 +34,4 @@
   <project path="packages/apps/Jelly" name="KAOSP/platform_packages_apps_Jelly" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/DeskClock" name="KAOSP/platform_packages_apps_DeskClock" remote="github" revision="aosp-8.1" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" remote="github" revision="lineage-15.1" />
-
-<!-- Moto G5 Cedric Projects -->
-  <project name="KAOSP/platform_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="aosp-8.1" />
-  <project name="KAOSP/platform_kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="android-8.1" />
-  <project name="KAOSP/platform_vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="aosp-8.1" />
 </manifest>
