@@ -9,6 +9,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/MusicFX" />
+  <remove-project name="platform/packages/apps/Messaging" />
 
 <!-- KAOSP Projects -->
   <project path="build/make" name="KAOSP/platform_build" remote="github" revision="aosp-8.1" >
@@ -29,6 +30,7 @@
   <project path="packages/apps/SnapdragonGallery" name="KAOSP/platform_packages_apps_SnapdragonGallery" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/SnapdragonMusic" name="KAOSP/platform_packages_apps_SnapdragonMusic" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/MusicFX" name="KAOSP/platform_packages_apps_MusicFX" remote="github" revision="aosp-8.1" />
+  <project path="packages/apps/Messaging" name="KAOSP/platform_packages_apps_Messaging" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/Jelly" name="KAOSP/platform_packages_apps_Jelly" remote="github" revision="aosp-8.1" />
   <project path="packages/apps/DeskClock" name="KAOSP/platform_packages_apps_DeskClock" remote="github" revision="aosp-8.1" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" remote="github" revision="lineage-15.1" />
